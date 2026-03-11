@@ -1,0 +1,124 @@
+/* General */ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center content */
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Logo + title */
+.logo-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 70px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Navigation buttons */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.nav-btn {
+    padding: 8px 15px;
+    background-color: #d9e8ff;
+    border: 1px solid #7aa7d9;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    width: 120px;
+}
+
+.nav-btn:hover {
+    background-color: #bcd7ff;
+}
+
+.nav-btn.active {
+    background-color: #7aa7d9;
+    color: white;
+}
+
+/* Sections */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    margin-bottom: 15px;
+    width: 60%;
+    padding: 8px;
+}
+
+form textarea {
+    margin-bottom: 15px;
+    width: 80%;
+    height: 80px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: #7aa7d9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c8ec2;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
